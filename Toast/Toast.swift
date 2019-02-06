@@ -613,14 +613,14 @@ public struct ToastStyle {
     public var messageFont: UIFont = .systemFont(ofSize: 16.0)
     
     /**
-     The title text alignment. Default is `NSTextAlignment.Left`.
+     The title text alignment. Default is `NSTextAlignment.Center`.
     */
-    public var titleAlignment: NSTextAlignment = .left
+    public var titleAlignment: NSTextAlignment = .center
     
     /**
-     The message text alignment. Default is `NSTextAlignment.Left`.
+     The message text alignment. Default is `NSTextAlignment.Center`.
     */
-    public var messageAlignment: NSTextAlignment = .left
+    public var messageAlignment: NSTextAlignment = .center
     
     /**
      The maximum number of lines for the title. The default is 0 (no limit).
